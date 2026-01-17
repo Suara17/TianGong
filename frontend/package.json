@@ -1,0 +1,28 @@
+{
+  "name": "天工·弈控",
+  "private": true,
+  "version": "0.0.0",
+  "type": "module",
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview",
+    "generate-client": "openapi-ts"
+  },
+  "dependencies": {
+    "@google/genai": "latest",
+    "axios": "^1.7.0",
+    "lucide-react": "^0.469.0",
+    "react": "^19.2.3",
+    "react-dom": "^19.2.3",
+    "react-router-dom": "6.22.3",
+    "recharts": "^2.13.0"
+  },
+  "devDependencies": {
+    "@hey-api/openapi-ts": "0.73.0",
+    "@types/node": "^22.14.0",
+    "@vitejs/plugin-react": "^5.0.0",
+    "typescript": "~5.8.2",
+    "vite": "^6.2.0"
+  }
+}

@@ -1,0 +1,96 @@
+# 字节码文件
+__pycache__/
+*.py[cod]
+*$py.class
+
+# 虚拟环境
+.env
+.venv
+env/
+venv/
+ENV/
+env.bak/
+venv.bak/
+
+# IDE 和编辑器
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Node.js
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+lerna-debug.log*
+.pnpm-debug.log*
+
+# 构建产物
+dist/
+build/
+.next/
+.nuxt/
+out/
+
+# 日志文件
+*.log
+logs/
+
+# 数据库
+*.db
+*.sqlite
+*.sqlite3
+
+# 临时文件
+.tmp/
+temp/
+tmp/
+
+# 测试覆盖率
+coverage/
+.nyc_output/
+
+# Playwright
+/test-results/
+/playwright-report/
+/blob-report/
+/playwright/.cache/
+
+# 敏感文件
+*.env
+*.env.local
+*.env.development.local
+*.env.test.local
+*.env.production.local
+密码.txt
+*.zip
+*.tar.gz
+
+# Claude 本地设置
+.claude/settings.local.json
+
+# TanStack Router 临时文件
+frontend/.tanstack/
+
+# 临时工作目录
+tmpclaude-*
+
+# OpenAPI 生成文件
+openapi.json
+
+# 本地开发文档
+项目本地开发环境启动问题总结.md
+
+# OS 生成文件
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Docker
+.dockerignore
